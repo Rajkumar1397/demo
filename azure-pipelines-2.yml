@@ -10,6 +10,9 @@ resources:
 
 variables:
   tag: '$(Build.BuildId)'
+- task: Docker@2
+  inputs:
+    command: 'push'
 
 stages:
 - stage: Build
