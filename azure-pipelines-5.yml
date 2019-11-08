@@ -15,6 +15,7 @@ steps:
     command: build
     Dockerfile: app/Dockerfile
 - task: Docker@2
+  displayName: Run an image
   inputs:
     containerRegistry: 'sampleconnection'
     command: 'push'
