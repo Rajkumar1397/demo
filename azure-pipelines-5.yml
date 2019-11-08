@@ -19,3 +19,4 @@ steps:
   inputs:
     containerRegistry: 'sampleconnection'
     command: 'push'
+    Dockerfile: app/Dockerfile
